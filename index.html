@@ -1,74 +1,161 @@
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="description" content="Discover delicious custom cakes made with premium ingredients. Order handmade cakes for birthdays, weddings and special occasions. Fresh, beautiful and crafted with love.">
-      <meta name="robots" content="index, follow">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-      <!--=============== FAVICON ===============-->
-      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+<head>
+   <meta charset="UTF-8">
+   <meta name="description"
+      content="Discover delicious custom cakes made with premium ingredients. Order handmade cakes for birthdays, weddings and special occasions. Fresh, beautiful and crafted with love.">
+   <meta name="robots" content="index, follow">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <!--=============== REMIXICONS - Insert link for icons ===============-->
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css">
+   <!--=============== FAVICON ===============-->
+   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
-      <!--=============== SWIPER CSS - Insert link for swiperjs ===============-->
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+   <!--=============== REMIXICONS - Insert link for icons ===============-->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css">
 
-      <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="assets/css/styles.css">
+   <!--=============== SWIPER CSS - Insert link for swiperjs ===============-->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
 
-      <title>Custom Cakes Bakery | Fresh Handmade Cakes for Every Occasion | Bedimcode</title>
-   </head>
-   <body>
-      <!--==================== HEADER & NAV ====================-->
-      <header class="header" id="header">
-         
-      </header>
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="assets/css/styles.css">
 
-      <!--==================== MAIN ====================-->
-      <main class="main">
-         <!--==================== HOME SECTION ====================-->
-         <section class="home section" id="home">
-            
-         </section>
+   <title>Custom Cakes Bakery | Fresh Handmade Cakes for Every Occasion | Bedimcode</title>
+</head>
 
-         <!--==================== ABOUT SECTION ====================-->
-         <section class="about section" id="about">
-            
-         </section>
+<body>
+   <!--==================== HEADER & NAV ====================-->
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="index.html" class="nav__logo">
+            <img src="assets/img/logo.svg" alt="logo Delicious">
+            <span>Delicious</span>
+         </a>
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li>
+                  <a href="#home" class="nav__link">Home</a>
+               </li>
 
-         <!--==================== PRODUCTS SECTION ====================-->
-         <section class="product section" id="product">
-         
-         </section>
+               <li>
+                  <a href="#about" class="nav__link">About Us</a>
+               </li>
 
-         <!--==================== NEW SECTION ====================-->
-         <section class="new section" id="new">
-            
-         </section>
+               <li>
+                  <a href="#product" class="nav__link">Products</a>
+               </li>
 
-         <!--==================== CONTACT SECTION ====================-->
-         <section class="contact section" id="contact">
-            
-         </section>
-      </main>
+               <li>
+                  <a href="#new" class="nav__link">New</a>
+               </li>
 
-      <!--==================== FOOTER ====================-->
-      <footer class="footer">
-         
-      </footer>
+               <li>
+                  <a href="#contact" class="nav__link">Contact</a>
+               </li>
+            </ul>
+            <!-- close -->
+            <button class="nav__close" id="nav-close" aria-label="close menu">
+               <i class="ri-close-large-line"></i>
+            </button>
+            <img src="assets/img/leaf-3.png" alt="" class="nav__img">
+         </div>
+         <!-- Toggle -->
+         <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+            <i class="ri-apps-2-line"></i>
+         </button>
+      </nav>
 
-      <!--========== SCROLL UP ==========-->
-      
+   </header>
 
-      <!--=============== SCROLLREVEAL - Insert link for animations ===============-->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
-      
-      <!--=============== SWIPER JS - Insert link for swiperjs ===============-->
-      <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+   <!--==================== MAIN ====================-->
+   <main class="main">
+      <!--==================== HOME SECTION ====================-->
+      <section class="home section" id="home">
+         <div class="home__container container grid">
+            <div class="home__data">
+               <h1 class="home__title">
+                  Best Custom <span>Cake Bakkery</span>
+               </h1>
+               <p class="home__description">
+                  Life is uncertain, but eating dessert shouldn’t be. Here, we bake joy from scratch daily! Whether
+                  you're looking for sleek minimalist bento cakes, vibrant drip cakes, or decadent cupcakes that
+                  disappear in seconds, we’ve got your sweet tooth covered. Order online for seamless local delivery and
+                  make your next party instantly iconic.
+               </p>
 
-      <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js"></script>
-   </body>
+               <a href="#new" class="button">Explore our cakes</a>
+               <img src="assets/img/home-slice-cake-1.png" alt=" " class="home__slice-1">
+               <img src="assets/img/home-slice-cake-2.png" alt=" " class="home__slice-2">
+               <img src="assets/img/home-balloons.png" alt=" " class="home__balloons">
+               <img src="assets/img/sticker-4.svg" alt=" " class="home__sticker-1">
+               <img src="assets/img/sticker-3.svg" alt=" " class="home__sticker-2">
+
+            </div>
+            <div class="home__images">
+               <img src="assets/img/home-blob.svg" alt="" class="home__blob">
+               <img src="assets/img/home-base.png" alt="" class="home__base">
+               <img src="assets/img/leaf-1.png" alt="" class="home__leaf-1">
+               <img src="assets/img/leaf-3.png" alt="" class="home__leaf-2">
+               <img src="assets/img/sticker-1.svg" alt="" class="home__sticker-3">
+               <img src="assets/img/sticker-2.svg" alt="" class="home__sticker-4">
+
+               <div class="home__swiper swiper">
+                  <div class="swiper-wrapper">
+                     <article class="home__article swiper-slide">
+                        <img src="assets/img/home-cake-1.png" alt="Delicious decorated cake" class="home__cake">
+                     </article>
+                     <article class="home__article swiper-slide">
+                        <img src="assets/img/home-cake-2.png" alt="Delicious decorated cake" class="home__cake">
+                     </article>
+                     <article class="home__article swiper-slide">
+                        <img src="assets/img/home-cake-3.png" alt="Delicious decorated cake" class="home__cake">
+                     </article>
+                     <article class="home__article swiper-slide">
+                        <img src="assets/img/home-cake-4.png" alt="Delicious decorated cake" class="home__cake">
+                     </article>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== ABOUT SECTION ====================-->
+      <section class="about section" id="about">
+
+      </section>
+
+      <!--==================== PRODUCTS SECTION ====================-->
+      <section class="product section" id="product">
+
+      </section>
+
+      <!--==================== NEW SECTION ====================-->
+      <section class="new section" id="new">
+
+      </section>
+
+      <!--==================== CONTACT SECTION ====================-->
+      <section class="contact section" id="contact">
+
+      </section>
+   </main>
+
+   <!--==================== FOOTER ====================-->
+   <footer class="footer">
+
+   </footer>
+
+   <!--========== SCROLL UP ==========-->
+
+
+   <!--=============== SCROLLREVEAL - Insert link for animations ===============-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+
+   <!--=============== SWIPER JS - Insert link for swiperjs ===============-->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+   <!--=============== MAIN JS ===============-->
+   <script src="assets/js/main.js"></script>
+</body>
+
 </html>
