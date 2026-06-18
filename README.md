@@ -1,4 +1,4 @@
-# Cakewalk — Premium Custom Cakes Bakery 🎂
+# Cakewalk
 
 A modern, fully responsive e-commerce landing page for a premium cake shop and artisanal bakery. **Cakewalk** features a sleek UI with a custom pastel pink and rich chocolate color palette, smooth multi-device carousels, and optimized interactive components.
 
