@@ -73,3 +73,14 @@ window.addEventListener('scroll', scrollHeader)
 
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+
+/*=============== RANDOMIZE PRODUCT PRICES ===============*/
+document.addEventListener('DOMContentLoaded', () => {
+    const priceEls = document.querySelectorAll('.product__price')
+    if (!priceEls || priceEls.length === 0) return
+
+    priceEls.forEach(el => {
+        const value = Math.floor(Math.random() * 900) + 100 // 100 - 999
+        el.textContent = '₹' + value
+    })
+})
