@@ -3,7 +3,7 @@
 A modern, fully responsive e-commerce landing page for a premium cake shop and artisanal bakery. **Cakewalk** features a sleek UI with a custom pastel pink and rich chocolate color palette, smooth multi-device carousels, and optimized interactive components.
 
 ## Live Demo
-[View Live Website](https://varuntg156.github.io/cake-website/)
+✨ **[Click here to view the live website](https://varuntg156.github.io/cake-website/)** *(Note: Hold Ctrl or Cmd when clicking to open in a new tab, or use the live link in the repository sidebar on the right!)*
 
 ---
 
