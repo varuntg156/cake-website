@@ -10,10 +10,10 @@ A modern, fully responsive e-commerce landing page for a premium cake shop and a
 ## Screenshots
 
 ### Desktop View
-![Cakewalk Home Page](home.jpg)
+![Cakewalk Home Page](Screenshots/Home.png)
 
 ### Product Showcase
-![Cakewalk Products](products.jpg)
+![Cakewalk Products](Screenshots/Products.png)
 
 ---
 
