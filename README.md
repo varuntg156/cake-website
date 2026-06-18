@@ -1,30 +1,19 @@
-# Responsive Cake Website
+# Responsive Cake Shop Website
 
-This project is part of a step-by-step YouTube tutorial in which we build a responsive cake website from scratch using HTML, CSS and JavaScript.
+A modern, fully responsive e-commerce landing page for a premium cake shop, featuring smooth carousels, responsive navigation, and optimized UI components.
 
-## 🎬 [Watch the Demo & Code](https://youtu.be/G6q7AkaljE4) 
+## 🚀 Live Demo
+[View Live Website](https://varuntg156.github.io/cake-website/)
 
-![preview img](/preview.png) 
+---
 
-## 📌 Project Features
-- Fully responsive cake website (Mobile First Methodology).
-- Clear and semantic HTML structure.
-- Use of CSS variables and modern JavaScript functions.
-- Smooth scrolling between sections.
-- Scroll animations.
-- Compatible with all modern browsers and devices.
-- 
-## 📦 Download the resources directly
-1. Click the green **code** button.
-2. Click **Download ZIP**.
-3. Extract the ZIP file and open the project in your code editor.
+## 🛠️ Tech Stack & Features
+- **Frontend:** HTML5, CSS3 (Custom Variables, Grid, Flexbox), JavaScript (ES6+)
+- **Libraries:** Swiper.js (for smooth multi-device carousels), Remix Icons
+- **Responsive Design:** Mobile-first architecture optimized for desktops, tablets, and smartphones.
 
-## 📥 Clone or Fork the repository
-You can **clone** the repository to your local machine or **fork** it in your GitHub account to get all the project's resources.
+---
 
-```bash
-# Clone the repository using HTTPS
-git clone https://github.com/bedimcode/responsive-cake-website.git
-```
-
-Designed & developed with ❤️ by **[Bedimcode](https://www.youtube.com/@Bedimcode)**
+## 💡 Acknowledgments & Credits
+- **UI Design & Base Code:** Original assets, starter files, and layout design by [Bedimcode](https://github.com/bedimcode).
+- **Tutorial:** Developed by following along with Bedimcode's structural web development framework on [YouTube](https://www.youtube.com/watch?v=G6q7AkaljE4).
