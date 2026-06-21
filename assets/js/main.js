@@ -61,7 +61,18 @@ const scrollHeader = () =>{
 window.addEventListener('scroll', scrollHeader)
 
 /*=============== PRODUCTS SWIPER ===============*/
+const swiperTabs = new Swiper('.product__tabs', {
+    slidesPerView: 'auto',
 
+})
+const swiperProducts = new Swiper('.product__content', {
+    loop: true,
+    spaceBetween: 32,
+    thumbs: {
+        swiper: swiperTabs,
+
+    }
+})
 
 /*=============== NEW SWIPER ===============*/
 
@@ -80,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!priceEls || priceEls.length === 0) return
 
     priceEls.forEach(el => {
-        const value = Math.floor(Math.random() * 900) + 100 // 100 - 999
+        const value = (Math.floor(Math.random() * 90) + 10) * 10 // 100 - 990 in tens
         el.textContent = '₹' + value
     })
 })
